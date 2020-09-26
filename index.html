@@ -1,0 +1,28 @@
+<html>
+  <head>
+ <title>Firebase Login</title>
+ <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+
+<div class="telalogin">
+  <label id="l1">Entre com sua conta</label><br><br> 
+  <img class="profile-photo" src="./img/login1.jpg" alt="foto de perfil">
+
+<br><br><label>E-mail:</label>
+<input type="text"id="email"><br>
+<label>Senha:</label>
+<input type="password"id="senha"><br>
+<button id="um" onclick="cadastrar()">Cadastrar</button>
+<br><button id="dois" onclick="login()">Entrar</button>
+    </br>
+</div>
+
+<script src="autenticacaologin.js"></script>
+</body>
+</html>
